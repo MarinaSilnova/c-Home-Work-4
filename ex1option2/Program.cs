@@ -3,5 +3,4 @@ Console.Write(" Введите значение числа A: ");
 int A = Convert.ToInt32(Console.ReadLine());
 Console.Write(" Введите значение числа B: ");
 int B = Convert.ToInt32(Console.ReadLine());
-double Sq = 1;
-Console.WriteLine(Sq = Math.Pow(A, B));
+Console.WriteLine(Math.Pow(A, B));
